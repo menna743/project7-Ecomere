@@ -1,5 +1,5 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Header from "./Component/header";
+import Header from "./Component/Header";
 import ShopPage from "./Pages/ShopPage";
 export default function App() {
 	return (
