@@ -3,7 +3,7 @@ import ProudctCard from "../Component/ProudctCard";
 import axios from "axios";
 
 export default function ShopPage() {
-    let domain = "http://82.112.241.233:2007";
+    let domain = "https://store.skyready.online";
     const [products, setProducts] = useState([]);
     const [cats, setCats] = useState([]);
     const [acticeCategory , setActiceCategory] = useState(null);
