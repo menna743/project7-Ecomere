@@ -1,6 +1,6 @@
 import noImg from "../assets/product-not-found.jpg"
 export default function ProudesctCard({ product }) {
-    let domain = "http://82.112.241.233:2007";
+    let domain = "https://store.skyready.online";
     return (
         <div className="card bg-base-100 border rounded-xl shadow-sm hover:shadow-lg transition duration-300">
 
