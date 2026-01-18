@@ -56,7 +56,7 @@ export default function ShopPage() {
         <div className="w-full text-gray-900 flex justify-center">
             <div className="container">
                 <h1 className="text-center text-gray-900 font-bold mb-3 text-2xl p-4">Our Products</h1>
-                <div className="w-full flex justify-center gap-3">
+                <div className="flex flex-wrap gap-3 justify-center sm:justify-center lg:justify-center">
                     <button onClick={getAllProducts} className="btn btn-error">All</button>
                     {
                         cats.map((el) => {
