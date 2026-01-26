@@ -42,7 +42,7 @@ export default function ShopPage() {
 
 
     const getAllProducts = () => {
-        setActiceCategory(null);
+        setActiveCategory(null);
         let endPoint = "/api/products?populate=*";
         let url = domain + endPoint;
 
