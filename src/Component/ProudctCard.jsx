@@ -1,10 +1,11 @@
 import noImg from "../assets/product-not-found.jpg"
+import {domain} from "../Store"
+
 export default function ProudesctCard({ product }) {
-    let domain = "https://store.skyready.online";
     return (
         <div className="card bg-base-100 border rounded-xl shadow-sm hover:shadow-lg transition duration-300">
 
-            <figure className="h-56 bg-gray-100 overflow-hidden rounded-t-xl">
+            <figure className="h-56 bg-gray-100  overflow-hidden rounded-t-xl">
                 <img
                     src={product.coverImg ? domain + product.coverImg?.url : noImg}
                     className="w-full h-full object-contain px-4 hover:scale-105 transition duration-300"
@@ -22,8 +23,8 @@ export default function ProudesctCard({ product }) {
                 </p>
 
                 <div className="card-actions justify-end mt-3">
-                    <button className="btn btn-primary btn-sm">
-                        Buy Now
+                    <button className=" w-full btn btn-primary btn-sm">
+                        Add To Card
                     </button>
                 </div>
             </div>
